@@ -1,0 +1,126 @@
+/* styles.css - Cleaner Funky Dark Theme */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0f0f0f;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container {
+    background-color: #1e1e22;
+    border: 1px solid #4dff91;
+    border-radius: 10px;
+    padding: 30px;
+    width: 90%;
+    max-width: 750px;
+    box-shadow: 0 0 5px #4dff9160;
+}
+
+h1 {
+    text-align: center;
+    color: #4dff91;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+form section {
+    margin-bottom: 25px;
+    border-bottom: 1px dashed #4dff9155;
+    padding-bottom: 20px;
+}
+
+form h2 {
+    color: #f72585;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #00f5d4;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #2a2a2e;
+    border: 1px solid #4dff9155;
+    color: #fff;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    transition: 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #f72585aa;
+    outline: none;
+    box-shadow: 0 0 4px #f7258588;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    background: linear-gradient(to right, #00f5d4, #4dff91);
+    color: #0f0f0f;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    transition: 0.3s ease;
+    box-shadow: 0 0 5px #4dff9170;
+}
+
+button:hover {
+    background: linear-gradient(to right, #f72585, #7209b7);
+    color: #fff;
+    box-shadow: 0 0 7px #f7258570;
+}
+
+.resume-output {
+    margin-top: 40px;
+    padding: 25px;
+    background-color: #151515;
+    border-left: 4px solid #4dff91;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #00f5d450;
+}
+
+.resume-output h2 {
+    color: #f72585;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #4dff9170;
+    padding-bottom: 8px;
+}
+
+.resume-output h3 {
+    color: #4dff91;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.resume-output p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #d4f4dd;
+}
